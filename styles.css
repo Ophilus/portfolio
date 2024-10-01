@@ -1,0 +1,188 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem;
+    font-weight: 400;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 4rem 0;
+    background-color: #fff;
+  }
+  
+  .about h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .skills span {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 4rem 0;
+    background-color: #f1f1f1;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+  
+  .project-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .tech-stack span {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  footer .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 18px;
+  }
+  
+  footer p {
+    margin-top: 1rem;
+  }
+  
