@@ -24,10 +24,16 @@
     padding: 1rem 0;
   }
   
-  .logo {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+  .logo{
+    height: 20px;
+    width: 200px;
+    background:no-repeat url("../images/logo.png");
+    background-size: contain;
+  }
+
+  header a{
+    display: flex;
+    justify-content: center;
   }
   
   header nav ul {
@@ -42,6 +48,10 @@
     font-family: 'Montserrat', sans-serif;
     padding: 0.5rem;
     font-weight: 400;
+  }
+
+  header nav ul li a:hover{
+    color:gray;
   }
   
   /* Hero Section */
