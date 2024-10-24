@@ -195,4 +195,35 @@
   footer p {
     margin-top: 1rem;
   }
+
+
+  #projects{
+  display:flex;
+  justify-content:space-around;
+  }
+  .proj{
+    height:340px;
+    width:220px;
+  }
+
+  .textProj{
+     height:340px;
+      width:220px;
+    transition: 2s;
+  }
+
+  .imgProj{
+    position:absolute;
+    height:320px;
+    width:200px;
+    background-color:red;
+    transition: 2s;
+  }
+
+  .proj:hover .imgProj {
+    transform: rotate(30deg);
+    transform-origin:bottom left;
+
+  }
+
   
