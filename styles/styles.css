@@ -211,17 +211,23 @@
       width:220px;
     transition: 2s;
   }
+  .textProj p{
+    padding:10px 10px;
+    font-size:small;
+  }
 
   .imgProj{
+  margin-top:40px;
     position:absolute;
-    height:320px;
+    height:300px;
     width:200px;
     background-color:red;
     transition: 2s;
+    border-radius:35px;
   }
 
   .proj:hover .imgProj {
-    transform: rotate(30deg);
+    transform: rotate(35deg);
     transform-origin:bottom left;
 
   }
